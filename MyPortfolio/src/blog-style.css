@@ -1,12 +1,17 @@
-h1 { 
-    color: blueviolet;
-    text-align: center;
+h1 { color: black;
+    width: 60%;
+    margin: 5% auto;}
+
+body { background: pink}
+
+main {background-color: green;
+width: 60%;
+margin: 5% auto;
 }
 
-body {
-    background-color: aqua
-}
+article { border: solid gray 2px;
+margin: 1%;}
 
-img {
-align-content: center
-}
+article:hover { background-color: gray;}
+
+h3:hover {background-color: blue;}
