@@ -93,3 +93,11 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+
+  /* CSS media query within a stylesheet */
+
+@media (min-width: 600px) {
+  .column {
+    color: blue;
+  }
+}
