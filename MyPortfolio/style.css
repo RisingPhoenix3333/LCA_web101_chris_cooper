@@ -55,7 +55,7 @@ body {
   
   #profile-pic {
     width: 250px;
-    height: 320px;
+    height: 350px;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
@@ -94,10 +94,24 @@ body {
     font-style: italic;
   }
 
-  /* CSS media query within a stylesheet */
+/* Extra Small and up (Portrait Phones) */
 
-@media (min-width: 600px) {
-  .column {
-    color: blue;
-  }
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
 }
