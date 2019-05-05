@@ -8,15 +8,15 @@ body {
   }
   
   .logo {
-    width: 30%;
+    width: 30% auto;
     height: 150%;
-    margin: 3% 10%;
+    margin: 3% 10% auto;
   }
   
   header {
     display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
+    grid-template-columns: 40% 60% auto;
+    width: 100% auto;
   }
   
   main {
@@ -32,10 +32,10 @@ body {
     width: 15%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
+    font-size: 20px auto;
+    border-radius: 25px auto;
     background: transparent;
-    padding: 20px; 
+    padding: 20px auto; 
     text-align: center;
     border: 2px solid white;
   }
@@ -54,7 +54,7 @@ body {
   }
   
   #profile-pic {
-    width: 250px;
+    width: 250px auto;
     height: 350px;
     border-radius: 50%;
     margin: 15% auto;
@@ -80,8 +80,8 @@ body {
   button {
     grid-column: 2/3;
     margin: 3% auto;
-    width: 70%;
-    height: 15%;
+    width: 70% auto
+    height: 15% auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
@@ -93,6 +93,8 @@ body {
     letter-spacing: 16px;
     font-style: italic;
   }
+
+
 
 /* CSS media query within a stylesheet */
 
@@ -109,3 +111,24 @@ max-width: 1000px) {
   }
 }
 
+/* Extra Small and up (Portrait Phones) */
+
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
+}
